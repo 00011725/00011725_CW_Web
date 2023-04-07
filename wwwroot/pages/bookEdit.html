@@ -1,0 +1,71 @@
+﻿<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="id" class="control-label"></label>
+            <input ng-model="bookEdit.Id" disabled />
+        </div>
+        <div class="form-group">
+            <label for="BookName" class="control-label"></label>
+            <input ng-model="bookEdit.BookName" placeholder="Book Name" />
+        </div>
+        <div class="form-group">
+            <label for="Author" class="control-label"></label>
+            <input ng-model="bookEdit.Author" placeholder="Author" />
+        </div>
+        <div class="form-group">
+            <label for="Replacement" class="control-label"></label>
+            <input ng-model="bookEdit.Replacement" placeholder="Replacement" />
+        </div>
+        <div class="form-group">
+            <label for="ForRent" class="control-label"></label>
+            <input ng-model="bookEdit.ForRent" type="text" placeholder="ForRent" />
+        </div>
+        <div class="form-group">
+            <label for="PublitionYear" class="control-label"></label>
+            <input ng-model="bookEdit.PublitionYear" type="text" placeholder="PublitionYear" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save Edit" class="btn btn-block btn-success" ng-click="Edit()" />
+
+            <input type="submit" value="Delete" class="btn btn-block btn-danger" ng-click="Delete()" />
+        </div>
+        <div class="form-group">
+            <a href="#!/">Go back</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="id" class="control-label"></label>
+            <input ng-model="edit.id" disabled />
+        </div>
+        <div class="form-group">
+            <label for="customerName" class="control-label"></label>
+            <input ng-model="edit.customerName" placeholder="Customer Name" />
+        </div>
+        <div class="form-group">
+            <label for="customerName" class="control-label"></label>
+            <input ng-model="edit.pickUpAddress" placeholder="Pick Up Address" />
+        </div>
+        <div class="form-group">
+            <label for="customerName" class="control-label"></label>
+            <input ng-model="edit.destinationAddress" placeholder="Destination Address" />
+        </div>
+        <div class="form-group">
+            <label for="customerName" class="control-label"></label>
+            <input ng-model="edit.orderDate" type="text" placeholder="Order Date" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Save Edit" class="btn btn-block btn-success" ng-click="Edit()" />
+
+            <input type="submit" value="Delete" class="btn btn-block btn-danger" ng-click="Delete()" />
+        </div>
+        <div class="form-group">
+            <a href="#!/">Go back</a>
+        </div>
+    </div>
+</div>

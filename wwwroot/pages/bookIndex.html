@@ -1,0 +1,20 @@
+﻿<div class="row">
+    <div class="col-md-10">
+        <table class="table">
+            <tbody>
+                <tr ng-repeat="b in books">
+                    <td>{{b.id}}</td>
+                    <td>{{b.bookName}}</td>
+                    <td>{{b.author}}</td>
+                    <td>{{b.replacement}}</td>
+                    <td>{{b.forRent}}</td>
+                    <td>{{b.publitionYear}}</td>
+                    <td><a href="#!/details/{{b.id}}">View</a> | <a href="#!/edit/{{b.id}}">Edit</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form-group">
+            <a href="#!/create">Create New</a>
+        </div>
+    </div>
+</div>
